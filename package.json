@@ -1,0 +1,24 @@
+{
+  "name": "module_2",
+  "version": "1.0.0",
+  "description": "Module 2 is about package.json",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "template-engine",
+    "handlebars"
+  ],
+  "author": "Ajay",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "chalk": "^1.1.3",
+    "express": "^4.14.0",
+    "express-handlebars": "latest",
+    "express-session": "^1.13.0"
+  }
+}
