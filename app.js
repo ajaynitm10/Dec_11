@@ -12,7 +12,7 @@ app.get('/home',function(req,res){
     res.send("this is home path");//send means write() and end()
 });
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || process.env.npm_package_config_myport;
 app.listen(port,function(){
-    console.log('server is running on port 3000');
+    console.log('Server is running on port '+port);
 })
